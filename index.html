@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f3f1">
+  <meta name="theme-color" content="#1d2a20">
   <meta name="description" content="Face Doctor — estética avançada com cuidado, tecnologia e naturalidade. Explore, revele e transforme sua melhor versão.">
   <title>Face Doctor — Sua beleza, em sua melhor versão</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -522,6 +522,43 @@
       .hero-mini-card { animation:none; }
     }
 
+    /* Direção botânica escura: pele iluminada, natureza e contraste premium */
+    .hero { background:#1d2a20; color:#f7f5eb; }
+    .site-header { background:rgba(29,43,34,.78); border-bottom-color:rgba(231,237,220,.2); }
+    .brand, .brand-tag { color:#f7f5eb; }
+    .nav-links { color:rgba(250,249,242,.95); }
+    .nav-links a:not(.button) { border-color:rgba(235,240,226,.2); background:rgba(243,246,235,.08); }
+    .nav-links a:first-child { background:#eef0e3; border-color:#eef0e3; color:#344438; }
+    .nav-cta { background:#e7eadc; color:#344438; }
+    .nav-cta:hover { background:#f6f5ec; color:#344438; }
+    .menu-toggle { border-color:rgba(244,245,235,.52); background:rgba(255,255,255,.08); color:#f7f5eb; }
+    .topbar { padding:8px 13px; border:1px solid rgba(236,240,226,.22); border-radius:999px; background:rgba(29,43,34,.72); color:#f7f5eb; backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); text-shadow:none; }
+    .hero-wash { background:linear-gradient(90deg,rgba(20,31,23,.66) 0%,rgba(23,35,26,.58) 24%,rgba(24,36,27,.48) 39%,rgba(24,36,27,.23) 54%,rgba(24,36,27,.04) 69%,transparent 80%),linear-gradient(0deg,rgba(20,30,23,.34),transparent 34%); }
+    .hero h1 { color:#f7f5eb; }
+    .hero h1 em { color:#c4d1b9; }
+    .hero-copy > p { color:rgba(248,247,238,.88); }
+    .hero .button-quiet { color:#f7f5eb; border-color:rgba(229,236,218,.58); background:rgba(28,43,33,.38); }
+    .hero .button-quiet:hover { color:#344438; background:#eef0e3; }
+    .hero-mini-card:not(.hero-mini-card-image) { border-color:rgba(228,236,216,.34); background:rgba(29,44,34,.6); color:#f7f5eb; }
+    .hero-mini-card:not(.hero-mini-card-image):hover { background:rgba(33,51,39,.76); }
+    .hero-mini-card .mini-index { color:#d2dec8; }
+    .hero-mini-card strong { color:#f8f6ed; }
+    .hero-mini-card small { color:rgba(248,247,238,.8); }
+    .hero-mini-card .mini-arrow, .hero-mini-card-image .card-arrow { color:#526852; }
+    @media (max-width:820px) {
+      .site-header { background:rgba(29,43,34,.9); }
+      .nav-links { background:rgba(27,42,32,.97); }
+      .nav-links a:not(.button), .nav-links a:first-child { color:#f7f5eb; }
+      .nav-links a:first-child { background:transparent; border-color:rgba(235,240,226,.13); }
+      .topbar { padding:7px 10px; border-radius:13px; background:rgba(29,43,34,.82); }
+      .hero-wash { background:linear-gradient(90deg,rgba(22,34,25,.28) 0%,rgba(22,34,25,.12) 38%,transparent 70%),linear-gradient(180deg,rgba(22,34,25,.05) 0%,rgba(22,34,25,.2) 31%,rgba(24,38,28,.91) 57%,#1d2a20 100%); }
+      .hero h1 { color:#f7f5eb; }
+      .hero-copy > p { color:rgba(248,247,238,.88); }
+    }
+    @media (max-width:520px) {
+      .topbar { background:rgba(29,43,34,.88); }
+      .hero-wash { background:linear-gradient(90deg,rgba(22,34,25,.34) 0%,rgba(22,34,25,.12) 45%,transparent 78%),linear-gradient(180deg,rgba(22,34,25,.06) 0%,rgba(22,34,25,.2) 29%,rgba(24,38,28,.94) 47%,#1d2a20 100%); }
+    }
   </style>
 </head>
 <body>
@@ -552,7 +589,7 @@
     <a href="https://franquias.facedoctor.com.br/" target="_blank" rel="noreferrer">Seja um franqueado</a>
     <a href="https://facedoctor.sults.com.br/" target="_blank" rel="noreferrer">Área do franqueado</a>
   </div>
-      <img class="hero-photo" src="assets/hero-face.jpg" alt="Detalhe de pele iluminada em retrato editorial de beleza" fetchpriority="high">
+      <img class="hero-photo" src="assets/hero-face-botanical.jpg" alt="Retrato editorial de beleza com folhagem natural ao fundo" fetchpriority="high">
       <div class="hero-wash" aria-hidden="true"></div>
       <div class="hero-reflections" aria-hidden="true"></div>
       <div class="hero-inner">
@@ -711,3 +748,4 @@
   </script>
 </body>
 </html>
+
